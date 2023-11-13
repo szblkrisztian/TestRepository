@@ -1,0 +1,14 @@
+
+Ha nincs repository:
+
+	git init  
+		Inicializaljuk a repositoryt
+	git add --all 
+		Minden fajl a mappaban hozzaadunk
+	git commit-m "first commit"
+		Minden fajlt hozzaadjuk a verziokoveto rendszerhez
+	git remote add origin https://github.com/szblkrisztian/TestRepository.git 
+		A lokalis git repositorynak megmondjuk hogy a tavolban a szerverben hova tegye fel
+	git remote --verbose
+		Ellenorzes
+	git push -u origin master
